@@ -3,7 +3,7 @@ const Order = require("../models/order");
 const PDFDocument = require("pdfkit");
 
 const stripe = require("stripe")(
-  "sk_test_51Ns1hVSICWr81F5s4pNaPYXXPd0nF1pd2LHG32rDdcPlsBoDUDjvNiuHdrFJWxHQVXK5GFhkS76uOqWpPsXuFZBr00r1AUnqZO"
+  ""
 );
 
 const ITEMS_PER_PAGE = 2;
